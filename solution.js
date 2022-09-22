@@ -138,7 +138,7 @@ console.log("----- 7. isEmptyDeep -----");
 const data7 = { a: { b: undefined } };
 //write your code here
 function isEmptyDeep(obj) {
-  return JSON.stringify(obj) === JSON.stringify({});
+  //   recursion or how to find different objects empty
 }
 
 console.log(isEmptyDeep(data7));
